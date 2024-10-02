@@ -1,70 +1,61 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Weather App - Projeto Final
 
-## Available Scripts
+Este é um projeto de aplicação de clima, onde os usuários podem buscar informações meteorológicas para qualquer cidade. O projeto foi desenvolvido como parte do trabalho final de Matheus Felipe do Carmo Campera e Ana Beatriz Carvalho.
 
-In the project directory, you can run:
+## Funcionalidades
 
-### `npm start`
+- Busca por informações de clima em qualquer cidade.
+- Exibição de temperatura, condições meteorológicas e umidade.
+- Exibição de informações sobre a cidade, como população, latitude e longitude.
+- Mapa interativo mostrando a localização da cidade.
+- Sistema de login e registro de usuários.
+- Autenticação protegida com verificação de login antes de acessar a página de clima.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tecnologias Utilizadas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React**: Biblioteca JavaScript para criar a interface do usuário.
+- **Material UI**: Componentes estilizados para o design do app.
+- **Leaflet.js**: Biblioteca para exibir mapas interativos.
+- **OpenWeatherMap API**: Para buscar as informações de clima.
+- **GeoDB Cities API**: Para obter informações detalhadas sobre as cidades.
+- **localStorage**: Para armazenar os dados de autenticação localmente.
 
-### `npm test`
+## Como Rodar o Projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone este repositório:
 
-### `npm run build`
+   ```bash
+   git clone https://github.com/usuario/trabalhofinaljoao.git
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navegue até o diretório do projeto:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   cd weather-app
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Instale as dependências:
 
-### `npm run eject`
+   ```bash
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Execute o projeto:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. Acesse o aplicativo no navegador:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```
+   http://localhost:3000
+   ```
 
-## Learn More
+## Autores
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Matheus Felipe do Carmo Campera**
+- **Ana Beatriz Carvalho**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto foi desenvolvido com o intuito de praticar e demonstrar habilidades em React, consumo de APIs e gerenciamento de autenticação.
